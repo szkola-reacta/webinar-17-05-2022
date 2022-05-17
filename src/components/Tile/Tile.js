@@ -26,6 +26,8 @@ function getTrackUnavailableMessage(kind, trackState) {
       return `${kind} interrupted`;
     case 'playable':
       return null;
+    default: 
+      return null;
   }
 }
 
